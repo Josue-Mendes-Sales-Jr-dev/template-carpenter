@@ -16,7 +16,7 @@ export default function Home() {
         <div className='absolute z-10 opacity-60 bg-black w-[100%] h-[100%]'>
 
         </div>
-         <Image src={wallpaper} className=" absolute w-[100vw] h-[100vh] object-cover " alt="wallpaper"/>
+         <Image src={wallpaper} className=" fixed left-[-1px] top-[0px] z-[-50] w-[100vw] h-[100vh] object-cover " alt="wallpaper"/>
          <div className="absolute z-20 flex flex-col gap-3 items-center justify-center">
                  <p className="text-[2.2rem] text-white text-center">Carpintaria Desde 1991</p>
                  <h2 className="bg-brown-500 text-[3rem] sm:text-[4.5rem] text-center text-white">MÓVEIS PLANEJADOS</h2>

@@ -28,15 +28,15 @@ export const Navbar=()=>{
      }
     return(
         <>
-           <div id="menu" className="flex items-center justify-center w-screen h-[80px]">
+           <div id="menu" className="bg-white flex items-center justify-center w-screen h-[80px]">
             
             <nav className="flex items-center md:justify-center justify-between h-[100%] text-[1.5rem] w-[90%]" >
                     <Link className="w-[10%]" href="/">Logo</Link>  
                 <ul  className="hidden md:flex w-[60%]   items-center justify-around">
-                    <li><Link href="/">Serviço</Link></li>
-                    <li><Link href="/">Orçamento</Link></li>
-                    <li><Link href="/">Projetos</Link></li>
-                    <li><Link href="/">Contatos</Link></li>
+                    <li><Link href="#services">Serviço</Link></li>
+                    <li><Link href="#orcamento">Orçamento</Link></li>
+                    <li><Link href="#projects">Projetos</Link></li>
+                    <li><Link href="#contacts">Contatos</Link></li>
                 </ul>
                  <button id="btn" className="md:hidden" onClick={handleClick}>
                       <GiHamburgerMenu/>
@@ -54,7 +54,7 @@ export const Navbar=()=>{
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#services">Serviço</Link></li>
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#orcamento">Orçamento</Link></li>
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#projects">Projetos</Link></li>
-                    <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#contacts">Contatos</Link></li>
+                    <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="contacts">Contatos</Link></li>
                 </ul>
                  
             </nav>

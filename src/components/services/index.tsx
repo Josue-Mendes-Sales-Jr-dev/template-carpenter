@@ -5,7 +5,7 @@ import { Icons1 } from "../icons"
 export const Services=()=>{
     return(
         <>
-         <div className="flex py-[5rem] flex-col items-center justify-center w-screen min-h-[100vh]">
+         <div className="bg-white flex py-[5rem] flex-col items-center justify-center w-screen min-h-[100vh]">
            
            <div className="flex flex-col gap-3 items-center justify-center">
                  <p className="text-[1.5rem] ">Carpintaria Desde 1991</p>
