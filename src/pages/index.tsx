@@ -18,16 +18,24 @@ export default function Home() {
         </div>
          <Image src={wallpaper} className=" absolute w-[100vw] h-[100vh] object-cover " alt="wallpaper"/>
          <div className="absolute z-20 flex flex-col gap-3 items-center justify-center">
-                 <p className="text-[2.2rem] text-white">Carpintaria Desde 1991</p>
+                 <p className="text-[2.2rem] text-white text-center">Carpintaria Desde 1991</p>
                  <h2 className="bg-brown-500 text-[3rem] sm:text-[4.5rem] text-center text-white">MÓVEIS PLANEJADOS</h2>
                  <p className="text-[1.5rem] text-center text-white sm:w-[55%] w-[80%] text-white">vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. </p>
             </div>
        </div>
-       <Services/>
-       <Orcamento/>
+       <section id='services'>
+        <Services/>
+        </section>
+       <section id='orcamento'>
+        <Orcamento/>
+       </section>
        <Galery/>
-       <Projects/>
-       <Contacts/>
+       <section id='projects'>
+        <Projects/>
+        </section>
+       <section id='contacts'> 
+        <Contacts/>
+        </section>
     </Layout>
     </>
   )
