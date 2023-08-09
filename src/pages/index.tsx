@@ -12,7 +12,17 @@ export default function Home() {
   return (
     <>
     <Layout>
-       <Image src={wallpaper} className=" w-[100vw] h-[100vh] object-cover " alt="wallpaper"/>
+       <div className='relative w-screen h-[100vh] flex items-center justify-center'>
+        <div className='absolute z-10 opacity-60 bg-black w-[100%] h-[100%]'>
+
+        </div>
+         <Image src={wallpaper} className=" absolute w-[100vw] h-[100vh] object-cover " alt="wallpaper"/>
+         <div className="absolute z-20 flex flex-col gap-3 items-center justify-center">
+                 <p className="text-[2.2rem] text-white">Carpintaria Desde 1991</p>
+                 <h2 className="bg-brown-500 text-[3rem] sm:text-[4.5rem] text-center text-white">MÓVEIS PLANEJADOS</h2>
+                 <p className="text-[1.5rem] text-center text-white sm:w-[55%] w-[80%] text-white">vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. </p>
+            </div>
+       </div>
        <Services/>
        <Orcamento/>
        <Galery/>

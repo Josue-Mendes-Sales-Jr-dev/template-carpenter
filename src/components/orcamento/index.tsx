@@ -24,7 +24,7 @@ export const Orcamento=()=>{
             <div className=" sm:hidden mt-[5rem] flex w-[100%] lg:w-[45%] xl:w-[50%] h-[100%] items-center justify-center">
                  <Image src={Img} className="lg:w-[70%] rounded w-[75%] lg:h-[100%] h-[70vh] " alt="Image"/>
              </div>
-             <button className="mt-[3rem] sm:hidden rounded-full px-[2.5rem] text-[1.2rem] sm:px-[3.5rem] xl:px-[6rem] py-[.8rem] bg-green-600 text-white">
+             <button className="mt-[3rem] sm:hidden rounded-full px-[2.5rem] text-[1.2rem] sm:px-[3.5rem] xl:px-[6rem] py-[.8rem] bg-amber-500 hover:bg-amber-600 text-white">
                 Solicitar um orçamento
                </button>
            </div>
