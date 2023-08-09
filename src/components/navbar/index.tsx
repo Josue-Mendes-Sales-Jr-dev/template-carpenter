@@ -30,22 +30,22 @@ export const Navbar=()=>{
         <>
            <div id="menu" className="bg-white flex items-center justify-center w-screen h-[80px]">
             
-            <nav className="flex items-center md:justify-center justify-between h-[100%] text-[1.5rem] w-[90%]" >
+            <nav className="flex items-center lg:justify-center justify-between h-[100%] text-[1.5rem] w-[90%]" >
                     <Link className="w-[10%]" href="/">Logo</Link>  
-                <ul  className="hidden md:flex w-[60%]   items-center justify-around">
+                <ul  className="hidden lg:flex w-[60%]   items-center justify-around">
                     <li><Link href="#services">Serviço</Link></li>
                     <li><Link href="#orcamento">Orçamento</Link></li>
                     <li><Link href="#projects">Projetos</Link></li>
                     <li><Link href="#contacts">Contatos</Link></li>
                 </ul>
-                 <button id="btn" className="md:hidden" onClick={handleClick}>
+                 <button id="btn" className="lg:hidden" onClick={handleClick}>
                       <GiHamburgerMenu/>
                  </button>
             </nav>
         
            </div>
 
-           <div id="menuBox" className=" hidden flex items-center justify-center w-screen h-[100vh]">
+           <div id="menuBox" className="bg-white hidden flex items-center justify-center w-screen h-[100vh]">
             
             <nav className=" flex items-center justify-center flex-col gap-10 h-[100%] text-[1.5rem] w-[90%]" >
         
