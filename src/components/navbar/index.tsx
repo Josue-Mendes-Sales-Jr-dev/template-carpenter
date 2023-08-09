@@ -54,7 +54,7 @@ export const Navbar=()=>{
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#services">Serviço</Link></li>
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#orcamento">Orçamento</Link></li>
                     <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#projects">Projetos</Link></li>
-                    <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="contacts">Contatos</Link></li>
+                    <li onClick={handleBackMenu} className="border-b-2 w-[70%] hover:p-1 text-center hover:bg-amber-500 hover:rounded-[1.5rem]"><Link href="#contacts">Contatos</Link></li>
                 </ul>
                  
             </nav>
